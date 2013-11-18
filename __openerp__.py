@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+
+# Doc : https://doc.openerp.com/trunk/server/03_module_dev_01/
+#       https://doc.openerp.com/trunk/server/03_module_dev_01/#manifest-file-openerp-py
+
 {
   "name" : "InfoSaône - Module OpenERP Tutoriel 01",
   "version" : "0.1",
