@@ -31,3 +31,16 @@ Introducing my quote:
 
 ![icon.png](https://raw.github.com/tonygalmiche/openerp_tutoriel_02/master/static/src/img/icon.png) 
 
+
+
+Indent every line of the block by at least 4 spaces or 1 tab. Alternatively, you can also use 3 backtick quote marks before and after the block, like this:
+ 
+```
+Text to appear as a code block.
+```
+ 
+Within a code block, ampersands (&) and angle brackets (< and >)are automatically converted into HTML entities.
+ 
+This is a normal paragraph:
+    This is a code block.
+    With multiple lines.
