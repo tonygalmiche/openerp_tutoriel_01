@@ -3,44 +3,24 @@ InfoSaône / OpenERP Tutoriel 01
 
 Ce module n'a aucune fonctionnalité. 
 
-Son seul but est de montrer comment créer et installer un premier module dans OpenERP
+Son seul but est de montrer comment créer et installer un premier module dans OpenERP.
 
+## Installation du module 
 
-# This is an H1
-## This is an H2
-...
-###### This is an H6
+Après avoir installé OpenERP, il faut placer le dossier contenant ce module dans le dossier 'addons' d'OpenERP.
 
-* Item 1
-* Item 2
-
-
-*Italic characters*
-_Italic characters_
-**bold characters**
-__bold characters__
-
-
-Introducing my quote:
-  
-> Neque porro quisquam est qui
-> dolorem ipsum quia dolor sit amet,
-> consectetur, adipisci velit...
-
-
-
-![icon.png](https://raw.github.com/tonygalmiche/openerp_tutoriel_02/master/static/src/img/icon.png) 
-
-
-
-Indent every line of the block by at least 4 spaces or 1 tab. Alternatively, you can also use 3 backtick quote marks before and after the block, like this:
- 
+Par exemple, sous Debian/Ubuntu ce dossier est par défaut : 
 ```
-Text to appear as a code block.
+/usr/lib/pymodules/python2.7/openerp/addons/
 ```
- 
-Within a code block, ampersands (&) and angle brackets (< and >)are automatically converted into HTML entities.
- 
-This is a normal paragraph:
-    This is a code block.
-    With multiple lines.
+
+Ensuite, il faut mettre à jour la liste des modules dans OpenERP : 
+
+* Menu "Configuration / Modules / Mettre à jour la liste des modules"
+
+Pour finir, il faut installer le module : 
+* Menu "Configuration / Modules installés"
+* Supprimer le filtre "Installé"
+* Rechercher dans la liste le nom de ce module et cliquer sur le bouton "Installer"
+
+
