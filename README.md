@@ -1,4 +1,4 @@
-InfoSaône / OpenERP Tutoriel 01
+InfoSaône / OpenERP Tutoriel 01 - Module minimaliste
 ===================
 
 Ce module n'a aucune fonctionnalité. 
